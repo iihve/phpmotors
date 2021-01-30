@@ -1,0 +1,26 @@
+/*
+Assingments:
+Inser a client into the clients table
+Modify client record
+Modify description 
+Use inerjoin items on inventory
+Delite inventory item
+Update all records on inventory
+
+*/
+
+INSERT INTO clients (clientFirstname, clientLastname, clientEmail, clientPassword, clientLevel, COMMENT) VALUES ('Tony', 'Stark', 'tony@starkent.com', 'Ian1IronM@n', 1, 'I am the real Ironman');
+
+UPDATE clients SET clientLevel = 3;
+
+UPDATE inventory SET invDescription = REPLACE('Do you have 6 kids and like to go offroading? The Hummer gives you the small interiors whit and engi',
+'samll interiors', 'spacious interiors');
+
+SELECT inventory.invModel, carclassification.classificationName
+FROM inventory
+INNER JOIN carclassification ON carclassification.classificationId = inventory.classificationId
+WHERE carclasification.classificationId = 1;
+
+DELITE FROM inventory WHERE invId = 1;
+
+UPDATE invetory SET invImage=CONCAT('/phpmotors', invImage), invThumbnail=CONCAT('/phpmotors', invThumbnail)

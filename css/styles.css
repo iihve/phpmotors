@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Orbitron&display=swap');
+
+html{
+    background-image: url(/phpmotors/images/site/checkerboard.jpg);
+}
+/*media rules*/
+/*@media screen and (max-width:600px){
+    body{
+        width: 100%;
+
+    }
+}*/
+
+/*body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(../images/site/checkerboard.jpg);
+}*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Orbitron',
+        sans-serif;
+    color: #3a3a3a;
+    /*text-align: center;*/
+    padding: 0;
+    margin-bottom: 0;
+}
+
+p {
+    font-family: 'Orbitron',
+        sans-serif;
+}
+
+ul {
+    font-family: 'Montserrat',
+        sans-serif;
+}
+
+li {
+    font-family: 'Montserrat',
+        sans-serif;
+    ;
+}
+
+
+/* this is the container that will have
+the basic layout for every page in the site*/
+
+.container {
+    display: grid;
+    position: relative;
+    justify-self: start;
+    align-items: center;
+    background-color: #ffffff;
+    /*max-width: 1180px;*/
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: .5em;
+    border-color: #4c96d7;
+    border-style: solid;
+    /*padding-top: 10px;*/
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+/*this part is for the header*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+}
+/*modify w8*/
+/*.header img {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}*/
+
+/* this is for the navigation*/
+
+.main-nav ul {
+    display: flex;
+    align-items: flex-start;
+    /*font-size: 1.5em;*/
+    margin: 0;
+    background-color: #3a3a3a;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav a:hover {
+    background: #4c96d7;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: .5rem;
+    text-decoration: none;
+}
+
+nav {
+    background-color: #3a3a3a;
+}
+/*for all the h1 titles on all views*/
+.title {
+    text-align: left;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+
+.car img {
+    width: 100%;
+}
+
+aside .action {
+    /*display: flex; 3*/
+    /*flex-wrap: wrap;*/
+    background-color: #f0f0f0cc;
+    margin: -.1em 45em 2em 5em;
+    padding: 1em;
+}
+
+aside .action h2 {
+    /*display: flex; 4*/
+    /*flex-wrap: wrap;*/
+    text-align: center;
+    color: #4c96d7;
+    padding-left: 20px;
+}
+aside .action li {
+    /*display: flex; 5*/
+    /*flex-wrap: wrap;*/
+    text-align: center;
+    color: #4c96d7;
+    padding-left: 20px;
+}
+
+aside .action button {
+    /*display: flex; 6*/
+    /*flex-wrap: wrap;*/
+    height: 60px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+    background-color: #4c96d7;
+    margin-left: 25px;
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+}
+article .left-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "h2 h2";
+}
+
+
+.left-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.left-grid h2 {
+    display: grid;
+    grid-area: h2;
+    padding-bottom: 20px;
+    
+}
+
+.left-grid .up {
+    display: grid;  
+}
+
+.left-grid .down {
+    display: grid;
+}
+
+.left-grid p {
+    display: grid;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #b40cb9;
+    text-decoration: underline;
+}
+
+.left-grid .a {
+    display: grid;
+    background-color: #4c96d7;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.left-grid .b {
+    display: grid;
+    background-color: #4c96d7;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.left-grid .c {
+    display: grid;
+    background-color: #4c96d7;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.left-grid .d {
+    display: grid;
+    background-color: #4c96d7;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*.left-grid {
+    display: grid;
+}*/
+
+article .right-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "h2";
+}
+
+/*.right-grid {
+    display: grid;
+    width: 100%;
+}*/
+
+article .right-grid h2 {
+    display: grid;
+    grid-area: h2;
+    padding-top: 0%;
+    margin-top: 0%;
+    padding-bottom: 140px;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-grid li {
+    display: grid;
+    align-items: center;
+    justify-content: left;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: #000;
+}
+/*this is for @media not show depending on screen size*/
+.right-grid2 {
+    display: none;
+}
+
+hr {
+    height: 3px;
+    background-color: #666;
+    border: none;
+     padding: 0%;
+     margin: 0%;
+}
+
+footer {
+    background-color: #ffffff;
+    /*display: flex;
+    flex-wrap: wrap;*/
+    align-items: center;
+    justify-content: center;
+    /*height: 50px;*/
+    /*padding-bottom: 20px;*/
+}
+/*footer info*/
+.info ul li {
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    text-align: center;
+    font-size: .6em;
+    padding: 0;
+    margin: 0;
+}
+
+/*this is for butoons in the form*/
+form {
+    flex-direction: column;
+}
+
+/*form li {
+
+    margin-top: 1em;
+}*/
+
+label {
+    
+    width: 100%;
+    text-align: left;
+}
+
+label::before {
+   content: " * ";
+   color: red;
+   font-weight: bold;
+}
+
+/*.span {
+    margin-left: 40px;
+}*/
+
+/*button {
+    width: 5vw;
+    height: 30px;
+    text-align: center;
+    color: #e6fdff;
+    background-color: #666;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}*/
+
+li {
+    list-style-type: none;
+}
+
+.star {
+    margin-left: 40px;
+    padding-bottom: 10px;
+}
+
+table .inventoryDisplay {
+    flex-direction: column;
+}
+
+p .center-red {
+ text-align: left;
+ color: crimson;
+ padding-left: 5%;
+}
+
+/*@media only screen and (max-width: 900px) {
+container{
+width: 100%;
+margin: 0;
+}
+}
+/*media query*/
+@media screen and (max-width: 1400px) {
+    header{
+        width: 100%;
+    }
+    nav{
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        width: 80%;
+    }
+    nav {
+        width: 80%;
+        color: blue
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    header {
+        width: 10%;
+    }
+     nav {
+         width: 10%;
+         background-color: palevioletred;
+     }
+
+
+}

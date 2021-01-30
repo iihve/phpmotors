@@ -1,0 +1,1017 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Orbitron&display=swap');
+
+html {
+    background-image: url(/phpmotors/images/site/checkerboard.jpg);
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Orbitron',
+        sans-serif;
+    color: #3a3a3a;
+}
+
+p {
+    font-family: 'Orbitron',
+        sans-serif;
+}
+
+ul {
+    font-family: 'Montserrat',
+        sans-serif;
+}
+
+li {
+    font-family: 'Montserrat',
+        sans-serif;
+    ;
+}
+
+body {
+    display: grid;
+    max-width: 100%;
+    background-color: #ffffff;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-width: .5em;
+    border-color: #4c96d7;
+    border-style: solid;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 0%;
+    
+} 
+
+/*this part is for the header*/
+
+/* .header {
+    align-self: start;
+    align-items: center;
+    width: 100%;
+    /* padding: 10px 10px; 
+    padding: 5px 10px;
+} */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 10px 5%;
+}
+
+/* this is for the navigation*/
+
+nav {
+    display: inline-block;
+    justify-content: space-evenly;
+    background-color: #3a3a3a;
+    height: 40px;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: flex-start;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a:hover {
+    background: #4c96d7;
+}
+
+nav li a {
+    color: white;
+    padding: .5rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+/*for all the h1 titles on all views*/
+.title {
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.title2 {
+    text-align: center;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.sub-title{
+    text-align: left;
+    padding-left: 20px;
+}
+.h2-1 {
+    text-align: center;
+}
+.h2-2{
+    text-align: left;
+    padding-left: 20px;
+}
+.notice {
+    text-align: center;
+    color: crimson;
+}
+
+/*measure for all images in site*/
+img {
+    max-width: 100%;
+}
+
+.anuncio {
+    background-color: #f0f0f0cc;
+    margin-left: 10%;
+    color: #4c96d7;
+    text-align: center;
+    position: absolute;
+}
+
+.anuncio h2 {
+    color: #4c96d7;
+}
+
+li {
+    list-style-type: none;
+}
+
+button {
+    height: 80%;
+    width: 50%;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+    background-color: #4c96d7;
+}
+.bt3 {
+    width: 20%;
+    text-align: center;
+    margin-left: 20px;
+} 
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/*first block of information*/
+.upgrades {
+    position: relative;
+}
+
+.upgrades h2 {
+    display: grid;
+    grid-area: h2;
+    text-align: center;
+}
+
+.left-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.upgrades .delorian {
+    position: relative;
+}
+
+.upgrades .up {
+    position: relative;
+}
+
+.upgrades p {
+    display: grid;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #b40cb9;
+    text-decoration: underline;
+}
+
+.upgrades .a {
+    display: grid;
+    background-color: #4c96d7;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.upgrades .b {
+    display: grid;
+    background-color: #4c96d7;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.upgrades .c {
+    display: grid;
+    background-color: #4c96d7;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.upgrades .d {
+    display: grid;
+    background-color: #4c96d7;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.upgrades .down {
+    position: relative;
+}
+
+/*next block of information*/
+.reviews {
+    position: relative;
+}
+
+.reviews h2 {
+    display: grid;
+    grid-area: h2;
+    text-align: center;
+
+}
+
+.reviews ul {
+    position: relative;
+    font-size: large;
+    line-height: 40px;
+
+}
+
+/*footer*/
+hr {
+    height: 3px;
+    background-color: #666;
+    border: none;
+    padding: 0%;
+    margin: 0%;
+}
+
+footer {
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.info ul li {
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    text-align: center;
+    font-size: .6em;
+    padding: 0;
+    margin: 0;
+}
+
+/*this is for butoons in the form*/
+form {
+    flex-direction: column;
+}
+
+.form2 {
+     align-items: center;
+}
+
+label {
+    width: 100%;
+    text-align: left;
+}
+
+label::before {
+    content: " * ";
+    color: red;
+    font-weight: bold;
+}
+
+li {
+    list-style-type: none;
+}
+
+.star {
+    margin-left: 40px;
+    padding-bottom: 10px;
+}
+
+table .inventoryDisplay {
+    flex-direction: column;
+}
+
+.center {
+    /* text-align: left; */
+    color: crimson;
+    /* padding-left: 5%;*/
+} 
+
+/*W10-this code is for the image view of classifications needs adapting */
+
+#inv-display {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#inv-display li {
+    margin-bottom: .5em;
+    border: 1px #ccc solid;
+    list-style-type: none;
+    flex: 1 1 auto;
+}
+
+#inv-display li img {
+    max-width: 100%;
+    
+}
+
+/* For vehicle display in classification view */
+ #inv-display {
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+#inv-display h2 {
+    font-size: 1rem;
+}
+
+#inv-display li {
+    /* max-width: 200px; */
+    flex: 1 0 auto;
+    text-align: center;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: none;
+}
+
+#inv-display div {
+    width: 100%;
+} 
+
+/* this is for the image of vehicle main image each car */
+
+#vehicle_other ul {
+    align-content: center;
+    text-align: center;
+    line-height: 1.5em;
+}
+.car-price {
+    color: #4c96d7;
+}
+
+ul#inv-display .detailImage img{
+    min-height: 150px;
+    height: auto;
+}
+
+.vehicle_detail {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+}
+.vehicle_detail .title2 {
+    display: grid;
+    grid-column: 2/5;
+     grid-row: auto;
+}
+.vehicle_detail .title-review {
+    display: grid;
+    grid-column: 2/5;
+    grid-row: 2/3;
+    padding: 5px;
+    text-align: center;
+    margin: 0px;
+}
+
+.vehicle_detail .detail_image {
+    display: grid;
+    grid-column: 2/5;
+    grid-row: 3/10;
+    align-items: center;
+}
+
+.vehicle_detail .thumbnail{
+    display: grid;
+    grid-column: 1/2;
+    grid-row: auto;
+    align-items: center;
+}
+
+.thumbnail {
+    width: 200px;
+    height: 120px;
+}
+.thumbnailBig {
+    position: absolute;
+    width: 0px;
+    -webkit-transition: width 0.3s linear 0s;
+    transition: width 0.3s linear 0s;
+    z-index: 100;
+    /* z-index: 500; */
+}
+.thumbnail:hover + .thumbnailBig {
+    width: 500px;
+    /* cursor: pointer; */
+    
+}
+
+.detail_description {
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 18%;
+}
+.home-delorean {
+    width: 950px;
+    height: 455px;
+    padding-left: 100px;
+}
+
+#image-display {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+}
+
+#image-display p {
+    text-align: center;
+}
+
+p.choose {
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.fieldset1 {
+    width: 350px;
+    box-sizing: border-box;
+}
+.textarea2 textarea {
+    vertical-align: top;
+    height: 15em;
+    width: 50em;
+    margin-left: 20px;
+}
+
+/* ********************************************************* */
+/* ********************************************************* */
+/* ********************************************************* */
+/* ********************************************************* */
+
+@media only screen and (max-width: 950px) {
+    /* .anuncio {
+        max-width: 100%;
+    } */
+
+    body {
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+
+    }
+
+    nav {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    footer {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .header {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        /* text-align: center; */
+        justify-content: space-evenly;
+    }
+
+    img#logo {
+        max-width: 40%;
+        padding-left: 0px;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    /* for ipad only */
+    .vehicle_detail .detail_image {
+        padding-left: 0%;
+    }
+
+    #inv-display {
+        display: block;
+    }
+
+    #inv-display li {
+        width: 100%;
+        flex: 1 0 auto;
+        text-align: center;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-bottom: solid;
+        color: #666;
+    }
+
+    ul#inv-display .detailImage img {
+        min-height: 350px;
+        height: auto;
+    }
+
+    .textarea2 textarea {
+        vertical-align: top;
+        height: 15em;
+        width: 53em;
+        margin-left: 20px;
+        margin-top: 20px;
+        border-color: #666;
+    }
+
+    .bt3 {
+        width: 25%;
+        height: 30px;
+        text-align: center;
+        padding: 10px 0px 0px 0px;
+    }
+
+
+}
+/* ******************************************************* */
+/* ******************************************************* */
+/* ******************************************************* */
+/* ******************************************************* */
+@media only screen and (max-width: 742px) {
+
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .textarea2 textarea {
+        vertical-align: top;
+        height: 10em;
+        width: 50em;
+        margin-left: 14px;
+    }
+
+
+}
+
+/* ******************************************************* */
+/* ******************************************************* */
+/* ******************************************************* */
+/* ******************************************************* */
+@media only screen and (max-width: 688px) {
+
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .textarea2 textarea {
+        vertical-align: top;
+        height: 10em;
+        width: 40em;
+        margin-left: 14px;
+    }
+    .vehicle_detail {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .vehicle_detail .title2 {
+        display: grid;
+        grid-column: 1/5;
+        grid-row: 1/2;
+    }
+
+    .vehicle_detail .detail_image {
+        display: grid;
+        grid-column: 1/5;
+        grid-row: 2/6;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .vehicle_detail .title-review {
+        display: grid;
+        grid-column: 1/5;
+        grid-row: 6/7;
+        text-align: center;
+        margin: 0px;
+        /* background-color: purple; */
+    }
+
+    #vehicle_other ul {
+        text-align: center;
+        padding: 0px;
+    }
+
+    /* .vehicle_other ul li {
+        text-align: center;
+        padding: 0px;
+        background-color: magenta;
+    } */
+
+    .vehicle_detail .thumbnail {
+        display: grid;
+        grid-column: 1/5;
+        align-items: center;
+
+    }
+}
+/* ******************************************************* */
+/* ******************************************************* */
+/* ******************************************************* */
+/* ******************************************************* */
+@media only screen and (max-width: 588px) {
+
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .textarea2 textarea {
+        vertical-align: top;
+        height: 10em;
+        width: 30em;
+        margin-left: 14px;
+    }
+    .vehicle_detail {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .vehicle_detail .title2 {
+        display: grid;
+        grid-column: 1/5;
+        grid-row: 1/2;
+    }
+
+    .vehicle_detail .detail_image {
+        display: grid;
+        grid-column: 1/5;
+        grid-row: 2/6;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .vehicle_detail .title-review {
+        display: grid;
+        grid-column: 1/5;
+        grid-row: 6/7;
+        text-align: center;
+        margin: 0px;
+        /* background-color: purple; */
+    }
+
+    #vehicle_other ul {
+        text-align: center;
+        padding: 0px;
+    }
+
+    /* .vehicle_other ul li {
+        text-align: center;
+        padding: 0px;
+        background-color: magenta;
+    } */
+
+    .vehicle_detail .thumbnail {
+        display: grid;
+        grid-column: 1/5;
+        align-items: center;
+
+    }
+}
+
+/* ****************************************************** */
+/* ******************************************************* */
+/* ****************************************************** */
+/* ******************************************************* */
+
+/*this code is to manage the responcivenes of the site*/
+
+@media only screen and (max-width: 481px) {
+
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        /* margin-right: 0%; */
+       
+        /* justify-content: space-evenly; */
+    }
+     .header {
+         width: 100%;
+         margin: 0;
+         padding: 0%;
+         text-align: center;
+         /* padding: 8px 5%; */
+     }
+     .logo-image img {
+        
+         width: 100px;
+     }
+
+    nav {
+        width: 100%;
+    }
+    nav ul  {
+        width: 95%;
+    }
+    nav ul li a {
+        padding: 4px;
+    }
+    .anuncio {
+        margin: 0%;  
+    } 
+    .anuncio ul {
+        padding: 0px;
+        margin-bottom: 10%;
+    }
+
+    .title {
+        padding-left: 10px;
+        padding-bottom: 10px;
+        width: 100%;
+        margin: 0;
+        padding: 0%;
+        text-align: center;
+    }
+
+    .home-delorean {
+        width: 100%;
+        height: 80%;
+        padding-left: 0%;
+        margin-bottom: 20px;
+    }
+
+    img {
+        width: 90%;
+        padding: 0px;
+        /* padding-left: 4%; */
+    }
+    
+    .container {
+        display: block;
+        /* padding-right: 8%; */
+        max-width: 100%;
+    }
+
+    .upgrades {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .upgrades ul {
+        padding: 2%;
+        margin: 0%;
+    }
+
+    .upgrades .up {
+        width: 100%;
+    }
+
+    .upgrades .down {
+        width: 100%;
+    }
+
+    .upgrades .left-grid {
+        width: 100%;
+    }
+
+    .upgrades h2.delorian {
+        width: 100%;
+        font-size: 95%;
+    }
+
+    .upgrades h2.reviews1 {
+        width: 100%;
+        /* border: 0%; */
+        font-size: 95%;
+    }
+    .reviews{
+        width: 100%;
+    }
+    
+    footer {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto;
+    }
+    .info  {
+        /* padding: 0% 10%; */
+        /* width: 100%; */
+        grid-column: 1/5;
+        justify-items: center;
+        align-items: center;
+        /* padding: 5px; */
+    }
+    .info ul {
+        padding: 0px;
+    }
+
+    hr {
+        max-width: 100%;
+        /* margin-left: 2%; */
+    }
+
+    #inv-display li {
+        width: 100%;
+        flex: 1 0 auto;
+        text-align: center;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-bottom: solid;
+        color: #666;
+    }
+
+    ul#inv-display .detailImage img {
+        min-height: 150px;
+        height: auto;
+        padding-left: 0%;
+    }
+    .vehicle_detail {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto;
+        justify-items: center;
+        align-items: center;
+    }
+    .vehicle_detail .title2 {
+        display: grid;
+        grid-column: 1/5;
+        grid-row: 1/2;
+    }
+    .vehicle_detail .detail_image {
+        display: grid;
+        grid-column: 1/5;
+        grid-row: 2/6;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .vehicle_detail .title-review {
+        display: grid;
+        grid-column: 1/5;
+        grid-row: 6/7 ;
+        text-align: center;
+        margin: 0px;
+        /* background-color: purple; */
+    }
+     #vehicle_other ul {
+         text-align: center;
+         padding: 0px;
+     }
+    /* .vehicle_other ul li {
+        text-align: center;
+        padding: 0px;
+        background-color: magenta;
+    } */
+
+    .vehicle_detail .thumbnail {
+        display: grid;
+        grid-column: 1/5;
+        align-items: center;
+        
+    }
+    .thumbnail:hover+.thumbnailBig {
+        width: 0px;
+    }
+    #image-display{
+        padding-left: 0%;
+    }
+    #image-display {
+         grid-template-columns: 1fr;
+         grid-template-rows: auto;
+         justify-items: center;
+         align-items: center;
+         padding-left: 10%;
+    }
+    .fieldset1 {
+        width: 280px;
+        box-sizing: border-box;
+    }
+    .textarea2 textarea{
+        vertical-align: top;
+        height: 10em;
+        width: 25em;
+        margin-left: 14px;
+    }
+    .bt3 {
+        width: 30%;
+        text-align: center;
+        margin-left: 20px;
+    }
+
+}
+/* ******************************************* */
+/* ******************************************* */
+/* ******************************************* */
+/* ******************************************* */
+
+@media only screen and (max-width: 351px) {
+
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+       
+    }
+
+    .header {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* grid-template-rows: auto; */
+        margin: 0;
+        padding: 0%;
+        text-align: center;
+        /* justify-content: space-evenly; */
+        
+    }
+    .logo-image img{
+       width: 100px;
+    /* background-color: mediumturquoise; */
+    }
+    nav {
+        width: 100%;
+         
+    }
+
+    nav ul {
+        width: 95%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+   .textarea2 textarea {
+       vertical-align: top;
+       height: 10em;
+       width: 20em;
+       margin-left: 14px;
+   }
+
+
+
+
+    }
